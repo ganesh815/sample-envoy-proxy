@@ -36,7 +36,7 @@ public class ProductRegister implements ApplicationListener<ApplicationReadyEven
 	public void onApplicationEvent(ApplicationReadyEvent event) {
 		LOGGER.info("ProductRegister.register");
 		try {
-			ip = InetAddress.getLocalHost().getHostAddress();
+			ip = "172.22.45.38";
 			DiscoveryHost host = new DiscoveryHost();
 			host.setPort(port);
 			host.setIpAddress(ip);

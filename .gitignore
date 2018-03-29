@@ -1,2 +1,6 @@
 /.settings/
 /.project
+/.idea/
+.idea/misc.xml
+.idea/sonarIssues.xml
+.idea/workspace.xml
